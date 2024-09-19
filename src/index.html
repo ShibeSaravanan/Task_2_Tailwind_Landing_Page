@@ -1,0 +1,455 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Saira:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Rowdies:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Header Section -->
+  <header class="mx-auto" id="header">
+    <div class="flex justify-around items-center py-2">
+        <div class="basis-1/4 hover:cursor-pointer"><a href="#"><img src="Assets/Header-logo.svg" alt="logo"></a></div>
+            <nav class="flex space-x-5" id="navlinks">
+                <a href="#" class="font-cf1">Home</a>
+                <a href="#" class="font-cf1">About</a>
+                <a href="#" class="font-cf1">Courses</a>
+                <a href="#" class="font-cf1">Contact</a>
+            </nav>
+        <div class="flex w-32 h-8 space-x-8 relative">
+            <img class="w-6 h-6 hover:cursor-pointer" src="Assets/Header-basket-Icon.svg" alt="basket-icon">
+            <img class="w-6 h-6 absolute bottom-4 hover:cursor-pointer" src="Assets/Header-item-counter-Icon.svg" alt="counter-badge" id="counter-badge">
+            <img class="w-6 h-6 hover:cursor-pointer" src="Assets/Header-acc-Icon.svg" alt="acc-icon">
+            <img class="w-6 h-6 hover:cursor-pointer" src="Assets/Header-search-Icon.svg" alt="search-Icon">
+        </div>
+        <div class="flex justify-center items-center space-x-10">
+            <a href="#" class="font-cf2" id="login">Login</a>
+            <button class="font-cf2 border rounded-xl bg-gradient-to-r from-blue-800 to-violet-500 text-white" id="signup">Signup</button>
+        </div>
+    </div>
+  </header>
+  <!-- Hero section -->
+  <section class="mx-auto bg-gradient-to-r from-violet-600 to-blue-900 flex justify-center items-center" id="hero-section">
+    <!-- Left Area -->
+    <div class="" id="left-area">
+      <p class="font-cf1">SUCCESFUL COACHES ARE VISONARIES</p>
+      <h1 class="font-cf1 mt-10">Good <span class="text-db1-0">coaching</span> is good teaching & nothing else.</h1>
+      <div class="mt-10 py-12 flex justify-start gap-10">
+        <a href="#" class="border border-white" id="view-courses">View Courses</a>
+        <a href="#" class="" id="g-f-c">Get Free Consultation</a>
+      </div>
+      <div id="email-input">
+        <input class="font-cf1" type="email" id="input-box" placeholder="What do you want to learn today?">
+        <button class="flex justify-center items-center font-cf2 border rounded-xl bg-gradient-to-r from-blue-800 to-violet-500 text-white" id="search"><img src="Assets/Hero-section-search-icon.svg" alt="search-icon">Search</button>
+      </div>
+    </div>
+    <!-- Middle Area -->
+    <div class="flex" id="middle-area">
+        <img class="mr-5" src="Assets/Hero-section-vertical-design.svg" alt="vertical-design" id="ver-design">
+          <div class="flex flex-col" id="content-rating">
+            <h4 class="font-cf4R text-white mb-2">Shyam</h4>
+            <p class="font-cf1 text-white mb-5" id="rating-para">In a coaching role, you ask the questions and rely more on your staff, who become the experts, to provide the information.</p>
+            <p class="font-cf3I text-tclr-0 mt-3">4.9</p>
+          </div>
+    </div>
+    <!-- Right Area -->
+    <div class="relative flex" id="right-area">
+      <img src="Assets/Hero-section-Ellipse.svg" alt="bg-blurd" id="hero-blured-bg">
+      <img class="mix-blend-darken" src="Assets/Hero-section-woman.svg" alt="woman" id="hero-woman">
+    </div>
+  </section>
+  <!-- Brands Section -->
+  <section class="mx-auto flex justify-center items-center bg-gradient-to-b from-blue-800 to-purple-700" id="brands-section">
+    <div class="flex justify-center items-center" id="brand-logos">
+      <img src="Assets/Brand-spotify.svg" alt="">
+      <img src="Assets/Brand-amazon.svg" alt="">
+      <img src="Assets/Brand-spotify.svg" alt="">
+      <img src="Assets/Brand-cisco.svg" alt="">
+      <img src="Assets/Brand-logitech.svg" alt="">
+      <img src="Assets/Brand-amazon.svg" alt="">
+    </div>
+  </section>
+  <!-- Featured Course section -->
+  <div class="mx-auto bg-gradient-to-t from-sky-200 to-transparent p-8" id="course-section">
+      <div class=" flex flex-col justify-center items-center text-center" id="f-c-heading">
+        <h1 class="font-cf4R">Featured<span class="text-tclr-0">Courses</span></h1>
+        <p class="font-cf2 uppercase">The feature courses are we invented our teaching part</p>
+      </div>
+      <!-- Course cards -->
+      <div class="flex flex-wrap justify-center gap-12">
+        <div class="rounded-lg bg-white shadow-lg" id="card">
+          <div class="flex justify-center" id="card-img">
+            <img src="Assets/Course-section-pr1.png" alt="" class="h-32" />
+          </div>
+          <div class="flex flex-col" id="card-con-heading">
+              <div class="flex" id="card-content">
+                <p class="mt-2 text-center font-cf2 font-medium">1,957 Students</p>
+                <p class="mt-2 text-center font-cf2 font-medium">01h 59m</p>
+              </div>
+            <h2 class="mt-2 text-left font-semibold">Motion Graphics: Create a Nice Typography Animation</h2>
+          </div>
+          <div class="mt-2 text-left flex" id="card-price">
+            <p class="font-cf2 font-semibold">Rs.499</p>
+            <img src="Assets/Course-section-cart-icon.svg" alt="cart-icon">
+          </div>
+        </div>
+        <div class="rounded-lg bg-white shadow-lg" id="card">
+          <div class="flex justify-center" id="card-img">
+            <img src="Assets/Course-section-pr2.png" alt="" class="h-32" />
+          </div>
+          <div class="flex flex-col" id="card-con-heading">
+              <div class="flex" id="card-content">
+                <p class="mt-2 text-center font-cf2 font-medium">9,575 Students</p>
+                <p class="mt-2 text-center font-cf2 font-medium">01h 59m</p>
+              </div>
+            <h2 class="mt-2 text-left font-semibold">Advance PHP knowledge with JS to make smart web</h2>
+          </div>
+          <div class="mt-2 text-left flex" id="card-price">
+            <p class="font-cf2 font-semibold">Rs.499</p>
+            <img src="Assets/Course-section-cart-icon.svg" alt="cart-icon">
+          </div>
+        </div>
+        <div class="rounded-lg bg-white shadow-lg" id="card">
+          <div class="flex justify-center" id="card-img">
+            <img src="Assets/Course-section-pr3.png" alt="" class="h-32" />
+          </div>
+          <div class="flex flex-col" id="card-con-heading">
+              <div class="flex" id="card-content">
+                <p class="mt-2 text-center font-cf2 font-medium">2957 Students</p>
+                <p class="mt-2 text-center font-cf2 font-medium">02h 49m</p>
+              </div>
+            <h2 class="mt-2 text-left font-semibold">Education Software and PHP and JS System Script</h2>
+          </div>
+          <div class="mt-2 text-left flex" id="card-price">
+            <p class="font-cf2 font-semibold">Rs.499</p>
+            <img src="Assets/Course-section-cart-icon.svg" alt="cart-icon">
+          </div>
+        </div>
+        <div class="rounded-lg bg-white shadow-lg" id="card">
+          <div class="flex justify-center" id="card-img">
+            <img src="Assets/Course-section-pr4.png" alt="" class="h-32" />
+          </div>
+          <div class="flex flex-col" id="card-con-heading">
+              <div class="flex" id="card-content">
+                <p class="mt-2 text-center font-cf2 font-medium">5,457 Students</p>
+                <p class="mt-2 text-center font-cf2 font-medium">01h 49m</p>
+              </div>
+            <h2 class="mt-2 text-left font-semibold">The Complete Financial Analyst Training & Investing</h2>
+          </div>
+          <div class="mt-2 text-left flex" id="card-price">
+            <p class="font-cf2 font-semibold">Rs.499</p>
+            <img src="Assets/Course-section-cart-icon.svg" alt="cart-icon">
+          </div>
+        </div>
+        <div class="rounded-lg bg-white shadow-lg" id="card">
+          <div class="flex justify-center" id="card-img">
+            <img src="Assets/Course-section-pr5.png" alt="" class="h-32" />
+          </div>
+          <div class="flex flex-col" id="card-con-heading">
+              <div class="flex" id="card-content">
+                <p class="mt-2 text-center font-cf2 font-medium">595 Students</p>
+                <p class="mt-2 text-center font-cf2 font-medium">01h 49m</p>
+              </div>
+            <h2 class="mt-2 text-left font-semibold">Marketing 2023: Complete Guide To Instagram Growth</h2>
+          </div>
+          <div class="mt-2 text-left flex" id="card-price">
+            <p class="font-cf2 font-semibold">Rs.499</p>
+            <img src="Assets/Course-section-cart-icon.svg" alt="cart-icon">
+          </div>
+        </div>
+        <div class="rounded-lg bg-white shadow-lg" id="card">
+          <div class="flex justify-center" id="card-img">
+            <img src="Assets/Course-section-pr6.png" alt="" class="h-32" />
+          </div>
+          <div class="flex flex-col" id="card-con-heading">
+              <div class="flex" id="card-content">
+                <p class="mt-2 text-center font-cf2 font-medium">458 Students</p>
+                <p class="mt-2 text-center font-cf2 font-medium">03h 00m</p>
+              </div>
+            <h2 class="mt-2 text-left font-semibold">Learn 3D Modelling and Design for Beginners</h2>
+          </div>
+          <div class="mt-2 text-left flex" id="card-price">
+            <p class="font-cf2 font-semibold">Rs.499</p>
+            <img src="Assets/Course-section-cart-icon.svg" alt="cart-icon">
+          </div>
+        </div>
+      </div>
+      <div class="text-center" id="course-btn">
+        <button class="rounded bg-gradient-to-r from-blue-800 to-purple-800 font-cf1 text-white hover:shadow-[0_10px_50px_rgba(8,_112,_184,_0.7)] hover:transition-shadow">Explore Courses</button>
+      </div>
+  </div>
+  <!-- Why learn with our courses section -->
+  <div class="mx-auto bg-gradient-to-bl from-bgclr1-0 to-bgclr2-0 text-white" id="learn-section">
+    <div class="mx-auto">
+        <div class="flex flex-col justify-center items-center text-center" id="learn-hed-con">
+            <h2 class="font-cf1">Why <span class="text-tclr1-0">learn</span> with our courses?</h2>
+            <p class="font-cf2">We are providing the best courses and top classes. And extraordinary placement training...</p>
+        </div>
+      <div class="mx-auto">
+        <div class="flex justify-center items-center" id="learn-card-section">
+            <div class="text-center" id="learn-card-content">
+                <div class="flex justify-center" id="learn-card-img">
+                    <img src="Assets/Why-Learn-lap-icon.svg" alt="Learn" class="w-12 h-12">
+                </div>
+                <h3 class="font-cf1">01. Learn</h3>
+                <p class="font-cf1">Learn continually. There is always "one more thing" to learn.</p>
+            </div>
+              <div class="" id="spacer-line">
+                <img src="Assets/Why-Learn-Vline.svg" alt="vertical-line">
+              </div>
+              <div class="text-center" id="learn-card-content">
+                  <div class="flex justify-center" id="learn-card-img">
+                    <img src="Assets/Why-Learn-grad-icon.svg" alt="Graduate" class="w-12 h-12">
+                  </div>
+                  <h3 class="font-cf1">02. Graduate</h3>
+                  <p class="font-cf1">Be bold, be courageous, be your best.</p>
+              </div>
+              <div class="" id="spacer-line">
+                <img src="Assets/Why-Learn-Vline.svg" alt="vertical-line">
+              </div>
+              <div class="text-center" id="learn-card-content">
+                  <div class="flex justify-center" id="learn-card-img">
+                    <img src="Assets/Why-Learn-work-icon.svg" alt="Work" class="w-12 h-12">
+                  </div>
+                  <h3 class="font-cf1">03. Work</h3>
+                  <p class="font-cf1">Great companies are built in the office, with hard work put in by team.</p>
+              </div>
+          </div>
+      </div>
+    </div>
+  </div>
+  <!-- Top Categories section -->
+  <div class="mx-auto bg-gradient-to-t from-sky-200 to-transparent" id="top-cat-section">
+    <div class=" flex flex-col justify-center items-center text-center" id="f-c-heading">
+      <h1 class="font-cf4R">Top<span class="text-tclr-0">Categories</span></h1>
+      <p class="font-cf2">100+ unique online course list designs</p>
+    </div>
+    <!-- Categories cards -->
+    <div class="flex flex-wrap justify-center gap-10">
+      <div class="rounded-lg bg-white shadow-lg hover:cursor-pointer" id="cat-cards">
+        <div class="flex justify-center" id="cat-card-img">
+          <img src="Assets/Top-Categories-pr1.svg" alt="" class="h-32" />
+        </div>
+        <div class="flex flex-col" id="cat-card-con-heading">
+          <h2 class="mt-2 text-center font-cf1">Digtal<br>Marketing</h2>
+          <div class="flex justify-center" id="cat-card-content">
+            <p class="mt-2 text-center font-cf1">25 Courses</p>
+          </div>
+        </div>
+      </div>
+      <div class="rounded-lg bg-white shadow-lg hover:cursor-pointer" id="cat-cards">
+        <div class="flex justify-center" id="cat-card-img">
+          <img src="Assets/Top-Categories-pr2.svg" alt="" class="h-32" />
+        </div>
+        <div class="flex flex-col" id="cat-card-con-heading">
+          <h2 class="mt-2 text-center font-cf1">Web<br>Development</h2>
+          <div class="flex justify-center" id="cat-card-content">
+            <p class="mt-2 text-center font-cf1">16 Courses</p>
+          </div>
+        </div>
+      </div>
+      <div class="rounded-lg bg-white shadow-lg hover:cursor-pointer" id="cat-cards">
+        <div class="flex justify-center" id="cat-card-img">
+          <img src="Assets/Top-Categories-pr3.svg" alt="" class="h-32" />
+        </div>
+        <div class="flex flex-col" id="cat-card-con-heading">
+          <h2 class="mt-2 text-center font-cf1">Art &<br>Humanities</h2>
+          <div class="flex justify-center" id="cat-card-content">
+            <p class="mt-2 text-center font-cf1">76 Courses</p>
+          </div>
+        </div>
+      </div>
+      <div class="rounded-lg bg-white shadow-lg hover:cursor-pointer" id="cat-cards">
+        <div class="flex justify-center" id="cat-card-img">
+          <img src="Assets/Top-Categories-pr4.svg" alt="" class="h-32" />
+        </div>
+        <div class="flex flex-col" id="cat-card-con-heading">
+          <h2 class="mt-2 text-center font-cf1">Personal<br>Development</h2>
+          <div class="flex justify-center" id="cat-card-content">
+            <p class="mt-2 text-center font-cf1">22 Courses</p>
+          </div>
+        </div>
+      </div>
+      <div class="rounded-lg bg-white shadow-lg hover:cursor-pointer" id="cat-cards">
+        <div class="flex justify-center" id="cat-card-img">
+          <img src="Assets/Top-Categories-pr5.svg" alt="" class="h-32" />
+        </div>
+        <div class="flex flex-col" id="cat-card-con-heading">
+          <h2 class="mt-2 text-center font-cf1">IT and<br>Software</h2>
+          <div class="flex justify-center" id="cat-card-content">
+            <p class="mt-2 text-center font-cf1">110 Courses</p>
+          </div>
+        </div>
+      </div>
+      <div class="rounded-lg bg-white shadow-lg hover:cursor-pointer" id="cat-cards">
+        <div class="flex justify-center" id="cat-card-img">
+          <img src="Assets/Top-Categories-pr6.svg" alt="" class="h-32" />
+        </div>
+        <div class="flex flex-col" id="cat-card-con-heading">
+          <h2 class="mt-2 text-center font-cf1">Graphic<br>Design</h2>
+          <div class="flex justify-center" id="cat-card-content">
+            <p class="mt-2 text-center font-cf1">85 Courses</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Subscribe section -->
+  <div class="bg-gradient-to-bl from-bgclr3-0 from-10% via-bgclr4-0  to-bgclr5-0  text-white mx-auto" id="subscribe-section">
+    <div class="mx-auto flex items-center justify-center relative">
+        <!-- Floating images left-->
+        <img src="Assets/Subscribe-section-img1.png" alt="Student" class="w-20 h-20 rounded-full absolute left-20 top-20 transform -translate-x-1/2 -translate-y-1/2">
+        <img src="Assets/Subscribe-section-img2.png" alt="Student" class="w-20 h-20 rounded-full absolute left-28 bottom-0 top-64 transform -translate-x-1/2 translate-y-1/2">
+        <img src="Assets/Subscribe-section-img3.png" alt="Student" class="w-20 h-20 rounded-full absolute left-56 bottom-12 top-32 transform -translate-x-1/2 translate-y-1/2">
+
+        <!-- Subscription form -->
+        <div class="z-10" id="sub-form">
+            <h2 class="font-cf1 text-center">Subscribe For Get Update Every New Courses</h2>
+            <p class="font-cf1 text-center">20k+ students daily learn with Eduvi. Subscribe for new courses.</p>
+            <form action="#" method="POST" class="flex" id="form-section">
+                <input type="email" placeholder="enter your email" class="bg-white bg-opacity-15 p-2 rounded-l-lg focus:outline-none flex-1 font-cf1">
+                <button type="submit" class="bg-gradient-to-r from-purple-600 to-blue-500 text-white font-cf1 py-2 px-4 rounded-r-lg">Subscribe</button>
+            </form>
+        </div>
+        <!-- Floating images right -->
+        <img src="Assets/Subscribe-section-img4.png" alt="Student" class="w-20 h-20 rounded-full absolute right-0 top-20 transform translate-x-1/2 -translate-y-1/2" id="right-fl-1">
+        <img src="Assets/Subscribe-section-img5.png" alt="Student" class="w-20 h-20 rounded-full absolute right-0 bottom-0 transform translate-x-1/2 translate-y-1/2" id="right-fl-2">
+        <img src="Assets/Subscribe-section-img6.png" alt="Student" class="w-20 h-20 rounded-full absolute right-0 bottom-0 transform translate-x-1/2 translate-y-1/2" id="right-fl-3">
+    </div>
+  </div>
+  <!-- video card section -->
+  <section class="mx-auto" id="video-section">
+    <div class="relative flex flex-col">
+      <img loading="lazy" src="Assets/Video-section-bg.png" alt="" class="absolute inset-0"/>
+      <div class="relative flex flex-col justify-center items-center">
+        <div class="flex flex-col justify-center items-center" id="play-btn">
+          <img loading="lazy" src="Assets/Video-section-play-button.svg" alt="Profile picture" class=""/>
+        </div>
+      </div>
+      <img loading="lazy" src="Assets/Video-section-right-bottom-banner.svg" alt="Decorative element" class="z-10" id="right-bt-img"/>
+    </div>
+  </section>
+  <!-- Testimonial Section -->
+  <div class="mx-auto bg-gradient-to-t from-bgclr6-0 to-transparent" id="testimonial-section">
+    <div class="flex flex-col text-center" id="test-heading-con">
+      <h1 class="font-cf1 text-tclr1-0">Testimonials</h1>
+      <p class="font-cf1 text-tclr2-0">What our student say about us</p>
+    </div>
+    <!-- Card section -->
+    <div class="flex justify-center items-center gap-5" id="card-container">
+      <div class="flex flex-col bg-white shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)]" id="test-card1">
+        <div class="flex justify-center relative z-0 bottom-10" id="test-card-img">
+          <img src="Assets/Testimonial-section-img.svg" alt="student">
+        </div>
+        <div class="flex justify-center" id="test-para">
+          <p class="font-cf1">Such an amazing traniner and easily understand the entire syllabus, and the guidence will be super and good to the way of explaning.</p>
+        </div>
+        <div class="flex ml-12">
+          <img src="Assets/Testimonial-section-stars.svg" alt="ratings">
+        </div>
+      </div>
+
+      <div class="card-2 flex flex-col bg-white shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)]" id="test-card1">
+        <div class="flex justify-center relative z-0 bottom-10" id="test-card-img">
+          <img src="Assets/Testimonial-section-img.svg" alt="student">
+        </div>
+        <div class="flex justify-center" id="test-para">
+          <p class="font-cf1">Such an amazing traniner and easily understand the entire syllabus, and the guidence will be super and good to the way of explaning.</p>
+        </div>
+        <div class="flex ml-12">
+          <img src="Assets/Testimonial-section-stars.svg" alt="ratings">
+        </div>
+      </div>
+
+      <div class="flex flex-col bg-white shadow-[0px_0px_0px_1px_rgba(0,0,0,0.06),0px_1px_1px_-0.5px_rgba(0,0,0,0.06),0px_3px_3px_-1.5px_rgba(0,0,0,0.06),_0px_6px_6px_-3px_rgba(0,0,0,0.06),0px_12px_12px_-6px_rgba(0,0,0,0.06),0px_24px_24px_-12px_rgba(0,0,0,0.06)]" id="test-card1">
+        <div class="flex justify-center relative z-0 bottom-10" id="test-card-img">
+          <img src="Assets/Testimonial-section-img.svg" alt="student">
+        </div>
+        <div class="flex justify-center" id="test-para">
+          <p class="font-cf1">Such an amazing traniner and easily understand the entire syllabus, and the guidence will be super and good to the way of explaning.</p>
+        </div>
+        <div class="flex ml-12">
+          <img src="Assets/Testimonial-section-stars.svg" alt="ratings">
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="flex" id="test-arrows">
+        <img src="Assets/Testimonial-section-left-arrow.svg" alt="just-arrow">
+        <img src="Assets/Testimonial-section-right-arrow.svg" alt="just-arrow">
+      </div>
+    </div>
+  </div>
+  <!-- Footer section -->
+  <footer class="mx-auto bg-gradient-to-bl from-bgclr7-0 to-bgclr8-0" id="footer-container">
+    <div class="mx-auto flex justify-around" id="ft-link-section">
+      <div class="flex flex-col" id="ft-left-side">
+        <h3 class="font-cf1">Connect</h3>
+        <img class="mix-blend-multiply" src="Assets/Header-logo.svg" alt="logo">
+        <p class="font-cf1">Sri Jagannath Nivas,8-1-164/345/A/1,Pragati Colony, Mailardevpally, Nawab Saheb Kunta, Hyd, 500005</p>
+      </div>
+      <div class="flex gap-56" id="ft-right-side">
+        <div class="flex flex-col" id="ft-list">
+          <h3 class="font-cf1">Classes</h3>
+          <a href="#" class="font-cf1">Classroom courses</a>
+          <a href="#" class="font-cf1">Virtual classroom courses</a>
+          <a href="#" class="font-cf1">E-learning courses</a>
+          <a href="#" class="font-cf1">Video Courses</a>
+          <a href="#" class="font-cf1">Offline Courses</a>
+        </div>
+
+        <div class="flex flex-col" id="ft-list">
+          <h3 class="font-cf1">Community</h3>
+          <a href="#" class="font-cf1">Learners</a>
+          <a href="#" class="font-cf1">Parteners</a>
+          <a href="#" class="font-cf1">Developers</a>
+          <a href="#" class="font-cf1">Transactions</a>
+          <a href="#" class="font-cf1">Blog</a>
+        </div>
+
+        <div class="flex flex-col" id="ft-list">
+          <h3 class="font-cf1">Quick links</h3>
+          <a href="#" class="font-cf1">Home</a>
+          <a href="#" class="font-cf1">Professional Education</a>
+          <a href="#" class="font-cf1">Courses</a>
+          <a href="#" class="font-cf1">Admissions</a>
+          <a href="#" class="font-cf1">Testimonial</a>
+          <a href="#" class="font-cf1">Programs</a>
+        </div>
+
+        <div class="flex flex-col" id="ft-list">
+          <h3 class="font-cf1">More</h3>
+          <a href="#" class="font-cf1">Press</a>
+          <a href="#" class="font-cf1">Investors</a>
+          <a href="#" class="font-cf1">Terms</a>
+          <a href="#" class="font-cf1">Privacy</a>
+          <a href="#" class="font-cf1">Help</a>
+          <a href="#" class="font-cf1">Contact</a>
+        </div>
+      </div>
+    </div>
+    <!-- bottom section -->
+     <div class="mx-auto flex flex-col justify-center items-center relative bg-white bg-opacity-20" id="ft-bottom-section">
+      <div class="flex gap-10" id="social-media-container">
+        <div class="rounded-full bg-white w-16 h-16 flex justify-center items-center"><img src="Assets/Footer-section-insta-icon.svg" alt="insta-icon"></div>
+        <div class="rounded-full bg-white w-16 h-16 flex justify-center items-center"><img src="Assets/Footer-section-wp-icon.svg" alt="wp-icon"></div>
+        <div class="rounded-full bg-white w-16 h-16 flex justify-center items-center"><img src="Assets/Footer-section-twitter-icon.svg" alt="twitter-icon"></div>
+        <div class="rounded-full bg-white w-16 h-16 flex justify-center items-center"><img src="Assets/Footer-section-linkedin-icon.svg" alt="linkedin-icon"></div>
+        <div class="rounded-full bg-white w-16 h-16 flex justify-center items-center"><img src="Assets/Footer-section-YT-icon.svg" alt="yt-icon"></div>
+      </div>
+      <div class="absolute" id="ft-copyright-content">
+        <p class="font-cf1 text-white">Copyright @ 2023 askmeidentity. All Rights Reserved</p>
+      </div>
+     </div>
+  </footer>
+</body>
+</html>
